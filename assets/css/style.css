@@ -1,6 +1,9 @@
 html, body{
     background-color:white;
+    margin: 0px 20px 0px 20px;
 }
+
+
 
 .jumbotron{
     text-align: center;
@@ -9,11 +12,13 @@ html, body{
 
 .jumbotron-fluid {
     background-color: navy !important;  
+    width: 98%;
+    margin: 0px 10px 0px 10px;
 }
-
+/* 
 .container{
     background-color: navy !important;
-}
+} */
 
 .h1{
     font-weight: bold !important;
