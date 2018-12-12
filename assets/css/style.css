@@ -1,0 +1,30 @@
+html, body{
+    background-color:white;
+}
+
+.jumbotron{
+    text-align: center;
+    color:white;
+}
+
+.jumbotron-fluid {
+    background-color: navy !important;  
+}
+
+.container{
+    background-color: navy !important;
+}
+
+.h1{
+    font-weight: bold !important;
+}
+
+form{
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}

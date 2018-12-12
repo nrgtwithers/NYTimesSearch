@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New York Times Search</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+<body>
+ 
+ <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <span>
+    <h1> <img src="assets/images/newspaper.png" alt=""> New York Times Search</h1>
+  </span>
+    <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+  </div>
+</div>   
+
+<div class="card">
+    <div class="card-header">
+     <h5><img src="./assets/images/parameters.png"> Search Parameters</h5>
+    </div>
+    <div class="card-body">
+      <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Search Term:</label>
+      <input type="Search" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Number of Records to Retrieve</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Start Year (Optional):</label>
+        <input type="Search" class="form-control" id="exampleFormControlInput1" placeholder="">
+      </div>
+      <div class="form-group">
+          <label for="exampleFormControlInput1">End Year (Optional):</label>
+          <input type="Search" class="form-control" id="exampleFormControlInput1" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2" id="search"><img src="./assets/images/search.png"> Search</button> 
+        <button type="submit" class="btn btn-primary mb-2"><img src="./assets/images/clear.png"> Clear Results</button>
+  </form>
+    </div>
+  </div>
+<br>
+<br>
+  <div class="card">
+      <div class="card-header">
+        Top Articles
+      </div>
+      <div class="card-body">
+        <div class="top-results"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+    Made with lots of and lots of love
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/javascript/logic.js"></script>
+</html>
